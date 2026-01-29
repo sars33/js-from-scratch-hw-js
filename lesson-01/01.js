@@ -2,9 +2,9 @@
 // Результат присвойте переменной sum
 
 // your code
-let firstNumber = 0;
+let firstNumber = 1;
 let lastNumber = 20;
-let sum = firstNumber;
+let sum = 0;
 while (firstNumber <= lastNumber) {
    sum = sum + firstNumber;
    firstNumber++;
