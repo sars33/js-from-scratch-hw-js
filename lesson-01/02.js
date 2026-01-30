@@ -6,4 +6,16 @@
 */
 
 // your code
-let factorial
+let factorial = 1;
+let counter = 1;
+let number = 5;
+
+if (number === 0) {
+    console.log(1);
+} else {
+    while (counter <= number) {
+        factorial *= counter;
+        counter++;
+    }
+    console.log(factorial);
+}
