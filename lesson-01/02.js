@@ -8,7 +8,7 @@
 // your code
 let factorial = 1;
 let counter = 1;
-let number = 5;
+let number = 10;
 
 if (number === 0) {
     console.log(1);
