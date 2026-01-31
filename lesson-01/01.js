@@ -6,7 +6,7 @@ let firstNumber = 1;
 let lastNumber = 20;
 let sum = 0;
 while (firstNumber <= lastNumber) {
-   sum = sum + firstNumber;
+   sum += firstNumber;
    firstNumber++;
 }
 console.log(sum);
