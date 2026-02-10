@@ -8,7 +8,7 @@
 */
 
 // тестовые данные (значения можно менять)
-let isAdmin = false
+let isAdmin = true;
 let isVerifiedUser = true
 const hasSpecialPermission = true
 const hasTemporaryPass = false
@@ -16,10 +16,10 @@ const hasTemporaryPass = false
 let isAccess
 
 // your code
-isAccess =
-    (isAdmin || isVerifiedUser) &&
-    (hasSpecialPermission || hasTemporaryPass)
-
-
+if ((isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)) {
+   isAccess = true;
+} else {
+    isAccess = false;
+}
 
 
