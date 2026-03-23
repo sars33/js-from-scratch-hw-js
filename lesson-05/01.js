@@ -27,4 +27,3 @@ const game = {
 
 
 
-game.addResource("silver", 50);
